@@ -4,4 +4,4 @@
 <br>
 # Bootstrap
 <hr>
-Note: WPM <b>not</b> calculated!
+<b>Note:</b> WPM <b style = "color:red">not</b> calculated!
