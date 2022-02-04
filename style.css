@@ -1,0 +1,53 @@
+div#content{
+    margin:10px;
+    padding:5px;
+}
+input{
+    margin:10px;
+    padding:5px;
+}
+span{
+    margin:5px;
+    padding:5px;
+}
+div#other{
+    margin:10px;
+    padding:5px;
+    display:none;
+}
+div#other-2{
+    margin:10px;
+    padding:5px;
+    display:none;
+}
+
+
+/* Keyboard */
+.mb-05{
+    margin-bottom: 0.1rem;
+}
+
+.keyboard{
+    max-width: 700px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: rgb(241, 241, 241);
+}
+.flex-fill{
+    margin:1px;
+}
+.flex-nonfill{
+    margin:1px;
+}
+.bg-white{
+    border-color: #a7a6a6!important;
+    border-radius: 3px;
+}
+.bg-silver{
+    background-color: #e2e2e2;
+    border-color: #a7a6a6!important;
+    border-radius: 3px;
+}
+.btn-clicked{
+    background-color: grey!important;
+}

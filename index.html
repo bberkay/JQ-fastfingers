@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form>
+        <fieldset>
+            <!-- Word Input -->
+            <input id="target" type="text" value="" autocomplete="off">
+        </fieldset>
+    </form>
+
+
+    <div id="content">
+        <h5>Words</h5>
+        <hr>
+        <p id="random-text">
+            <!-- Word Pool -->
+        </p>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-12">
+            <div class="border text-center keyboard">
+                <div class="d-flex justify-content-center flex-row mb-05 mt-3 keyboard-row">
+                    <div class="p-2 flex-fill bg-silver border">Tab</div>
+                    <div class="p-2 flex-fill bg-white border" keycode="113">Q</div>
+                    <div class="p-2 flex-fill bg-white border" keycode="119">W</div>
+                    <div class="p-2 flex-fill bg-white border" keycode="101">E</div>
+                    <div class="p-2 flex-fill bg-white border" keycode="114">R</div>
+                    <div class="p-2 flex-fill bg-white border" keycode="116">T</div>
+                    <div class="p-2 flex-fill bg-white border" keycode="121">Y</div>
+                    <div class="p-2 flex-fill bg-white border" keycode="117">U</div>
+                    <div class="p-2 flex-fill bg-white border" keycode="105">I</div>
+                    <div class="p-2 flex-fill bg-white border" keycode="111">O</div>
+                    <div class="p-2 flex-fill bg-white border" keycode="112">P</div>
+                    <div class="p-2 flex-fill bg-silver border" keycode="8">Backspace</div>
+                </div>
+                <div class="d-flex justify-content-center flex-row mb-05 keyboard-row">
+                    <div class="p-2 flex-fill bg-silver border">Caps Lock</div>
+                    <div class="p-2 flex-fill bg-white border" keycode="97">A</div>
+                    <div class="p-2 flex-fill bg-white border" keycode="115">S</div>
+                    <div class="p-2 flex-fill bg-white border" keycode="100">D</div>
+                    <div class="p-2 flex-fill bg-white border" keycode="102">F</div>
+                    <div class="p-2 flex-fill bg-white border" keycode="103">G</div>
+                    <div class="p-2 flex-fill bg-white border" keycode="104">H</div>
+                    <div class="p-2 flex-fill bg-white border" keycode="106">J</div>
+                    <div class="p-2 flex-fill bg-white border" keycode="107">K</div>
+                    <div class="p-2 flex-fill bg-white border" keycode="108">L</div>
+                    <div class="p-2 flex-fill bg-silver border">Enter</div>
+                </div>
+                <div class="d-flex justify-content-center flex-row mb-05 keyboard-row">
+                    <div class="p-2 flex-fill bg-silver border">Shift</div>
+                    <div class="p-2 flex-fill bg-white border" keycode="122">Z</div>
+                    <div class="p-2 flex-fill bg-white border" keycode="120">X</div>
+                    <div class="p-2 flex-fill bg-white border" keycode="99">C</div>
+                    <div class="p-2 flex-fill bg-white border" keycode="118">V</div>
+                    <div class="p-2 flex-fill bg-white border" keycode="98">B</div>
+                    <div class="p-2 flex-fill bg-white border" keycode="110">N</div>
+                    <div class="p-2 flex-fill bg-white border" keycode="109">M</div>
+                    <div class="p-2 flex-fill bg-silver border">Shift</div>
+                </div>
+                <div class="d-flex justify-content-center flex-row mb-3 keyboard-row">
+                    <div class="p-2 flex-nonfill bg-silver border">Ctrl</div>
+                    <div class="p-2 flex-nonfill bg-silver border">Alt</div>
+                    <div class="p-2 flex-nonfill flex-grow-1 bg-white border" keycode="32"></div>
+                    <div class="p-2 flex-nonfill bg-silver border">Alt</div>
+                    <div class="p-2 flex-nonfill bg-silver border">Ctrl</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="other">
+        <h5>Written</h5>
+        <hr>
+        <p id="user-text">
+	<!-- Written List --> 
+        </p>
+    </div>
+
+    <div id="other-2">
+        <h5>Result</h5>
+        <hr>
+	<small>WPM is <b>not</b> calculated<small>
+        <ul id="result-text">
+	<!-- Result List --> 
+        </ul>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
