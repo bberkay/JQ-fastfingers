@@ -3,11 +3,21 @@ var count = [];
 var current_count = 0;
 var true_count = 0;
 var false_count = 0;
-var word_pool = ["work", "over", "do", "feet", "why", "their", "near", "being", "off", "place", "always"];
 var char_control;
 var wpm = 0;
+var word_pool = ["work", "over", "do", "feet", "why", "their", "near", "being", "off", "place", "always"];
 
 $(document).ready(function () {
+
+    // Keyboard add/remove class
+    $(".keyboard-row").addClass("d-flex justify-content-center flex-row");
+    $(".mb-3.keyboard-row").children().addClass("p-2 flex-nonfill bg-silver border");
+    $(".mb-3.keyboard-row").children().addClass("p-2 flex-nonfill bg-silver border");
+    $(".keyboard-row.mb-05").children().addClass("p-2 flex-fill bg-white border");
+    $(".bg-silver").removeClass("bg-white");
+    $(".flex-grow-1").removeClass("bg-silver");
+    $(".flex-grow-1").addClass("bg-white");
+    
 
     text_pool = word_pool;
     $.each(word_pool, function (index, value) {
