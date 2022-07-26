@@ -4,5 +4,5 @@
 <br>
 # Bootstrap
 <hr>
-![Animation](https://user-images.githubusercontent.com/62906693/181091182-94102163-6884-4f64-8f3e-7c193d296d06.gif)
+<img src = "https://media.giphy.com/media/ZlMXUTiRUbdNbvnWeW/giphy.gif">
 <b>Note:</b> WPM <b style = "color:red">not</b> calculated!
