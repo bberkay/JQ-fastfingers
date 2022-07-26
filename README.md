@@ -4,5 +4,5 @@
 <br>
 # Bootstrap
 <hr>
-<img src = "https://media.giphy.com/media/ZlMXUTiRUbdNbvnWeW/giphy.gif" width = "100%" height = "100%">
+<img src = "hhttps://i.ibb.co/C9TQb5w/jq-fastfingers.gif" width = "100%" height = "100%">
 <b>Note:</b> WPM <b style = "color:red">not</b> calculated!
